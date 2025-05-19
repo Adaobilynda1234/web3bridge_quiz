@@ -1,61 +1,75 @@
-Quiz Master - Interactive Quiz Game
-A dynamic, responsive quiz application built with React.js and Tailwind CSS that tests users' knowledge across various topics.
-Show Image
-Features
+# Quiz Master - Interactive Quiz Game
 
-Interactive quiz interface with multiple-choice questions
-Real-time feedback on answer correctness
-Score tracking system
-30-second timer for each question
-Responsive design that works on all devices
-Leaderboard to track high scores
-Modern, engaging UI with smooth transitions
+A dynamic, responsive quiz application built with **React.js** and **Tailwind CSS** that tests users' knowledge across various topics.
 
-Demo
-You can view a live demo of the application here (add your demo link once deployed).
-Technology Stack
 
-React.js - Frontend library for building user interfaces
-Tailwind CSS - Utility-first CSS framework for styling
-Lucide React - Icon library for the interface elements
 
-Installation
+## Features
+
+- **Interactive Quiz Interface**: Engage with multiple-choice questions.
+- **Real-Time Feedback**: Instant feedback on answer correctness.
+- **Score Tracking**: Monitor your performance throughout the quiz.
+- **30-Second Timer**: Answer each question within a time limit.
+- **Responsive Design**: Works seamlessly on all devices.
+- **Leaderboard**: Track and compare high scores.
+- **Modern UI**: Enjoy a sleek design with smooth transitions.
+
+## Demo
+
+You can view a live demo of the application [here](https://web3bridge-quiz.vercel.app/) (add your demo link once deployed).
+
+## Technology Stack
+
+- **React.js**: Frontend library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Lucide React**: Icon library for interface elements.
+
+## Installation
+
 Follow these steps to set up the project locally:
 
-Clone the repository:
-git clone https://github.com/yourusername/quiz-master.git
-cd quiz-master
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Adaobilynda1234/web3bridge_quiz.git
+   cd web3bridge_quiz   
+   ```
 
-Install dependencies:
-npm install
-
-Start the development server:
-npm run dev
-
-Open http://localhost:5173 to view it in your browser.
-
-
-Usage
-
-Start the application using the instructions above
-Enter your name on the welcome screen
-
-Click "Start Quiz" to begin the game
-For each question:
-
-You have 30 seconds to select an answer
-Click on your chosen answer
-Get immediate feedback on whether your answer was correct
-Click "Next" to proceed to the next question
+2.**Install Dependencies**:
+ ```bash
+npm install  
+   ```
+3.**Start the Development Server**:
+```bash
+npm run dev 
+   ```
+4.**Open in Browser:Open http://localhost:5173 to view the app**:
 
 
-After answering all questions, view your final score and position on the leaderboard
-Choose to play again or exit
 
-Customization
+## Usage
+
+- **Start the Application**:Follow the installation instructions above.
+
+- **Enter Your Name**:Provide your name on the welcome screen.
+
+- **Start the Quiz**:Click "Start Quiz" to begin.
+
+## Answer Questions:
+
+- **You have 30 seconds to select an answer**.
+- **Click your chosen answer to receive immediate feedback**.
+- **Click "Next" to proceed to the next question**.
+
+
+## View Results:After completing all questions, see your final score and leaderboard position.
+
+## Play Again:Choose to restart the quiz or exit.
+
+
+## Customization
 Adding More Questions
-To add more questions, edit the quizData array in the main component or create a separate JSON file:
-javascriptconst quizData = [
+To add new questions, modify the quizData array in the main component or use a separate JSON file (e.g., src/data/questions.json):
+const quizData = [
   {
     id: 1,
     question: "Your question here?",
@@ -65,30 +79,40 @@ javascriptconst quizData = [
   },
   // Add more questions...
 ];
-Styling
-The app uses Tailwind CSS for styling. You can customize the appearance by modifying the Tailwind classes in the component files.
-Future Enhancements
 
-User authentication system
-Multiple quiz categories
-Difficulty levels
-Persistent leaderboard using a backend database
-Social sharing of results
-Dark mode support
+## Styling
+The app uses Tailwind CSS for styling. Customize the appearance by editing Tailwind classes in the component files (e.g., src/components/QuizGame.js).
 
-Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
 
-Fork the repository
-Create your feature branch (git checkout -b feature/amazing-feature)
-Commit your changes (git commit -m 'Add some amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
-Open a Pull Request
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Future Enhancements
+
+User Authentication: Enable user accounts for personalized experiences.
+Multiple Categories: Introduce various quiz topics.
+Difficulty Levels: Offer easy, medium, and hard modes.
+Persistent Leaderboard: Store scores in a backend database.
+Social Sharing: Allow users to share results on social media.
+Dark Mode: Add a dark theme option.
+
+## Contributing
+Contributions are welcome! To contribute:
+
+## Fork the Repository.
+Create a Feature Branch:git checkout -b feature/amazing-feature
+
+
+Commit Your Changes:git commit -m 'Add some amazing feature'
+
+
+Push to the Branch:git push origin feature/amazing-feature
+
+
+Open a Pull Request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 Acknowledgments
 
-Icon library: Lucide React
-UI inspiration: Various quiz applications and modern web design trends
+## Icon Library: Lucide React
+UI Inspiration: Various quiz applications and modern web design trends
 

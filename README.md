@@ -16,7 +16,7 @@ A dynamic, responsive quiz application built with **React.js** and **Tailwind CS
 
 ## Demo
 
-You can view a live demo of the application [here](https://web3bridge-quiz.vercel.app/) (add your demo link once deployed).
+You can view a live demo of the application [here](https://web3bridge-quiz.vercel.app/) 
 
 ## Technology Stack
 

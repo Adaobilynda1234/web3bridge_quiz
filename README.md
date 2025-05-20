@@ -69,6 +69,7 @@ npm run dev
 ## Customization
 Adding More Questions
 To add new questions, modify the quizData array in the main component or use a separate JSON file (e.g., src/data/questions.json):
+```bash
 const quizData = [
   {
     id: 1,
@@ -80,8 +81,9 @@ const quizData = [
   // Add more questions...
 ];
 
+```
 ## Styling
-The app uses Tailwind CSS for styling. Customize the appearance by editing Tailwind classes in the component files (e.g., src/components/QuizGame.js).
+The app uses Tailwind CSS for styling. Customize the appearance by editing Tailwind classes in the each component 
 
 
 
